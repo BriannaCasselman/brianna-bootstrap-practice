@@ -15,7 +15,21 @@
   text-decoration: underline;
 }
 
+
 .jumbotron {
   backgound-image: url(..//media/pirate-ship.jpg);
   background-size: cover;
+}
+
+.footer {
+  padding: 10px;
+  background-color: grey;
+}
+
+h1 {
+  font-family: 'Germania One', cursive;
+}
+
+.lead, h4 {
+  font-family: 'Merriweather', serif;
 }
