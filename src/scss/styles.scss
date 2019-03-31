@@ -28,8 +28,12 @@
   background-color: grey;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Germania One', cursive;
+}
+
+.lead, h1 {
+  text-align: center;
 }
 
 .lead, h4 {

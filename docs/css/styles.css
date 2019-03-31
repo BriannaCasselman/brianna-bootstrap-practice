@@ -6325,8 +6325,11 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 10px;
   background-color: grey; }
 
-h1 {
+h1, h2 {
   font-family: 'Germania One', cursive; }
+
+.lead, h1 {
+  text-align: center; }
 
 .lead, h4 {
   font-family: 'Merriweather', serif; }
