@@ -6337,5 +6337,8 @@ h1, h2 {
 footer {
   text-align: center; }
 
-img {
+#beastStory {
+  text-align: right; }
+
+#photoPirate {
   height: 200px; }
