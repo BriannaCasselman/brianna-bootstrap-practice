@@ -6316,8 +6316,10 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: underline; }
 
 .jumbotron {
-  backgound-image: url(..//media/pirate-ship.jpg);
-  background-size: cover; }
+  background-image: url(..//media/pirate-ship.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
 
 .footer {
   padding: 10px;
@@ -6328,3 +6330,6 @@ h1 {
 
 .lead, h4 {
   font-family: 'Merriweather', serif; }
+
+.page-footer {
+  background-color: #D3D3D3; }
