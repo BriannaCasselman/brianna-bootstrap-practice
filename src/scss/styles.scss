@@ -15,17 +15,11 @@
   text-decoration: underline;
 }
 
-
 .jumbotron {
-  background-image: url(..//media/pirate-ship.jpg);
+  background-image: url(../media/pirate-ship.jpg);
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
-}
-
-.footer {
-  padding: 10px;
-  background-color: grey;
 }
 
 h1, h2 {
@@ -34,9 +28,10 @@ h1, h2 {
 
 .lead, h1 {
   text-align: center;
+  color: white;
 }
 
-.lead, h4 {
+.lead, h5 {
   font-family: 'Merriweather', serif;
 }
 
@@ -44,3 +39,10 @@ h1, h2 {
   background-color: #D3D3D3;
 }
 
+footer {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}

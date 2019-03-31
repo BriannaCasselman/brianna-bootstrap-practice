@@ -6316,23 +6316,26 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: underline; }
 
 .jumbotron {
-  background-image: url(..//media/pirate-ship.jpg);
+  background-image: url(../media/pirate-ship.jpg);
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center; }
-
-.footer {
-  padding: 10px;
-  background-color: grey; }
 
 h1, h2 {
   font-family: 'Germania One', cursive; }
 
 .lead, h1 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
-.lead, h4 {
+.lead, h5 {
   font-family: 'Merriweather', serif; }
 
 .page-footer {
   background-color: #D3D3D3; }
+
+footer {
+  text-align: center; }
+
+img {
+  height: 200px; }
